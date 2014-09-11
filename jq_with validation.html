@@ -1,0 +1,62 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="val.css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+
+<body id="a">
+<table id="c">
+<form id="b" action="web.html" onsubmit ="sub()">
+	
+	<h2>Registration form<br><br>
+		<br><br></h2>
+	
+
+	<tr>
+		<td>Enter the First name:</td>
+		<td><input id="cc" type="text" name="f_name" value="" placeholder="First Name" onchange="checke_fname()">
+		</td>
+		<td class="error" id="e_first"></td>
+	</tr>
+	<tr>
+		<td>Enter the Second name:</td>
+	</div>
+		<td><input type="text" name="l_name" value="" placeholder="Second Name" onchange="checke_lname()"></td>
+		<td class="error" id="e_second"></td>
+	</tr>
+    <tr>
+		<td>Enter the dob</td>
+		<td><input type="text" name="dob_name" value="" placeholder="date of Birth" onchange="checke_dob()"></td>
+		<td class="error" id="e_dob"></td>
+	</tr>
+	<tr>
+		<td>Enter email</td>
+		<td><input type="text" name="email" value="" placeholder="E-mail" onchange="checke_email()"></td>
+		<td id="e_mail" class="error" ></td>
+	</tr>
+	<tr>
+		<td>Enter address</td><td>
+		<textarea cols=31 rows=4 name="address" value="" placeholder="Address" onchange="checke_add()"></textarea></td>
+		<td class="error" id="e_address"></td>
+	</tr>
+	<tr>
+		<td>Enter phone</td>
+		<td><input type="text" name="ph" value="" placeholder="Phone Number" onchange="checke_ph()"></td>
+		<td  class="error" id="e_ph"></td>
+	</tr>
+	<tr></tr>
+	<tr>
+	<td></td>
+	<td><input type="button" name="Submit" value="submit" onclick="sub()" id="one"></td>
+	<td class="error" id="e_full"></td>
+	
+    </tr>
+	
+   
+</form>
+</table>
+
+</body>
+																																																																																																															 

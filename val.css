@@ -1,0 +1,17 @@
+#a{
+	width:50%;
+	margin: 0px auto;
+	text-align: center;
+	background: #DCDADA;
+}
+  #c
+    {
+   width: auto;
+   height:auto;
+	 border-radius: 10px 30px 10px;
+	border: 2px solid blue;
+   }
+.error
+ {    
+  color:red;
+  }
